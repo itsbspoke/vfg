@@ -6,6 +6,7 @@ gem "middleman", "~>3.3.6"
 
 gem 'rake'
 gem 'middleman-gh-pages'
+gem 'middleman-google-analytics'
 gem 'thin'
 gem 'foreman'
 

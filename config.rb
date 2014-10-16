@@ -53,6 +53,24 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+# Google Analytics
+activate :google_analytics do |ga|
+  # Property ID (default = nil)
+  ga.tracking_id = 'UA-51227922-8'
+  # Removing the last octet of the IP address (default = false)
+  ga.anonymize_ip = false
+  # Tracking across a domain and its subdomains (default = nil)
+  ga.domain_name = 'vanfleetgroup.com'
+  # Tracking across multiple domains and subdomains (default = false)
+  ga.allow_linker = false
+  # Tracking Code Debugger (default = false)
+  ga.debug = false
+  # Tracking in development environment (default = true)
+  ga.development = false
+  # Compress the JavaScript code (default = false)
+  ga.minify = true
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
