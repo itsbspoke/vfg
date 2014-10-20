@@ -183,8 +183,8 @@ section {padding-bottom: 70px;
 	position:relative;
 	margin: 0;
 	padding: 7px 25px;
-	border:0;
-	border-radius: 0;
+	border:2px solid;
+	border-radius: 25px;
 	box-shadow: none;
 	text-transform:uppercase;
 	font-weight: 700;
@@ -198,17 +198,17 @@ section {padding-bottom: 70px;
 }
 .btn:focus,
 .btn:hover {
-	color:#fff;
-	background-color: #407d9e;
+	color:#407d9e;
+	background-color: #fff;
 }
 .btn span {padding-left:8px;}
 
-.btn-white {color:#407d9e; background:#fff;}
+.btn-white {color:#fff; background:#407d9e;}
 .btn-light {color:#333; background:#ddd;}
-.btn-dark {color:#fff; background:#333;}
-.btn-dark:hover, .btn-white:hover {color: #fff; background: #407d9e;}
+.btn-dark {color:#407d9e; background:#fff;}
+.btn-dark:hover, .btn-white:hover {color: #407d9e; background: #fff;}
 
-.btn-default {background:#505050;}
+.btn-default {background:#407d9e;}
 .btn-active {background-color:#407d9e; color:#fff;}
 .btn-active:hover {background-color:#505050; color:#fff;}
 
