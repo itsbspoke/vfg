@@ -2384,9 +2384,11 @@ footer .tweet_module .tweet_time a {color:#407d9e;}
 	.why_us .tab-content #tab2 .tab_text {padding-top:0;}
 	.why_us .tab-content #tab2 .tab_text {width:359px;}
 	
-	.why_us .tab-content iframe{height:186px;}
 	.why_us .tab-content #tab3 .tab_text {padding-top:0;}
-	
+	.why_us .tab-content #tab3 .tab_text {width:359px;}
+
+	.why_us .tab-content #tab3 .tab_text {padding-top:0;}
+	.why_us .tab-content #tab3 .tab_text {width:359px;}
 	
 	.projects_block .project_item .hover_img {height:315px;}
 	
