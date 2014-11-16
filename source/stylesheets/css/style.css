@@ -559,7 +559,7 @@ ul.mega_menu li ol li a {
 .why_us .nav-tabs li {
 	float:none;
 	display:inline-block;
-	vertical-align:top;
+	vertical-align:middle;
 	margin:0;
 }
 .why_us .nav-tabs li a {
