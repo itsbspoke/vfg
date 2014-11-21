@@ -4,16 +4,6 @@ window.jQuery = window.$ = jQuery;
 
 
 /*-----------------------------------------------------------------------------------*/
-/*	STYLE SWITCHER
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function() {
-	$('<script src="js/style_switcher.js" type="text/javascript"></script>').appendTo('head');
-	$('<link href="css/style-switcher.css" rel="stylesheet" type="text/css" >').appendTo('head');
-});
-
-
-
-/*-----------------------------------------------------------------------------------*/
 /*	PRELOADER
 /*-----------------------------------------------------------------------------------*/
 jQuery(window).load(function () {
@@ -22,9 +12,6 @@ jQuery(window).load(function () {
 	setTimeout("jQuery('.page_block').animate({'opacity' : '1'},500)",800);
 
 });
-
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	CONTACT FORM
@@ -237,26 +224,6 @@ $(document).ready(function() {
 jQuery(document).ready(function() {
 	jQuery("a[rel^='prettyPhoto']").prettyPhoto();
 });
-
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	TWITTER
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function() {	
-	$('.tweet_module.sidebar').tweet({
-		modpath: 'twitter/',
-		count: 2,
-		username : 'templatesmint'
-	});
-	
-	$('footer .tweet_module').tweet({
-		modpath: 'twitter/',
-		count: 3,
-		username : 'templatesmint'
-	});
-});
-
 
 
 /*-----------------------------------------------------------------------------------*/

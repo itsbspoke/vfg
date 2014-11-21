@@ -128,7 +128,7 @@ h6 {
 .padtop0 {padding-top:0;}
 
 #page {
-	background-image: url(../images/bg.jpg);
+	background-image: url(/images/bg.jpg);
 	background-attachment: fixed;
     background-position: 0 0;
     background-repeat: repeat;
@@ -292,7 +292,7 @@ section {padding-bottom: 70px;
 	border-radius:50%;
 	background-color:#d4d4d4;
 	background-repeat: no-repeat;
-	background-image: url(../images/social.png);
+	background-image: url(/images/social.png);
 	transition: background-color 0.3s ease-in-out;
 	-webkit-transition: background-color 0.3s ease-in-out;
 }
@@ -502,48 +502,18 @@ ul.mega_menu li ol li a {
 /*-----------------------------------------------------------------------------------*/
 /*	SERVICES
 /*-----------------------------------------------------------------------------------*/
-.services_block {
+.founder_block {
 	margin:0 -30px 66px;
 	padding:70px 30px 34px;
 	background-color:#f7f7f7;
 }
 
-.service_item a {display:block; color:#979797;}
-
-.service_item a p {
-	margin:0 0 10px;
-	padding:1px 0 0;
-	text-transform:uppercase;
-	font-weight:700;
-	font-size:14px;
-	color:#505050;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
+.founder_block p {
+	font-size: 15px;
+	font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 20px;
 }
-.service_item a:hover p {color:#407d9e;}
-
-.service_item i {
-	display:block;
-	vertical-align:top;
-	width:117px;
-	height:128px;
-	margin:0 auto 19px;
-	background-repeat:no-repeat;
-	background-position:0 0;
-	background-size:100% auto;
-	-webkit-background-size:100% auto;
-}
-
-.service_item i.i1 {background-image:url(../images/i1.png);}
-.service_item i.i2 {background-image:url(../images/i2.png);}
-.service_item i.i3 {background-image:url(../images/i3.png);}
-.service_item i.i4 {background-image:url(../images/i4.png);}
-
-.service_item a:hover i {background-position:0 -128px;}
-
-
-
-
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -551,7 +521,6 @@ ul.mega_menu li ol li a {
 /*-----------------------------------------------------------------------------------*/
 .why_us .nav-tabs {
 	margin:0 auto;
-	width:534px;
 	
 }
 .why_us .nav-tabs li {
@@ -578,7 +547,7 @@ ul.mega_menu li ol li a {
 }
 
 .why_us .tab-content {
-	padding:65px 0 0;
+	padding:35px 0 0;
 	min-height:407px;
 	background:none;
 	border:0;
@@ -610,13 +579,6 @@ ul.mega_menu li ol li a {
 	font-size:10px;
 	color:#505050;
 }
-
-
-
-
-
-
-
 
 
 
@@ -1137,11 +1099,6 @@ footer input[type="text"].last {margin-right:0;
 /* __________ Our Team __________ */
 .crewman_foto {
 	margin-bottom:20px;
-	background:#d8d08b;
-}
-.crewman_foto img {
-	opacity: 0.88;
-	filter: alpha(opacity=88);
 }
 .crewman h3 {margin-bottom:0;
 }
@@ -2150,7 +2107,7 @@ footer .tweet_module .tweet_time a {color:#407d9e;}
 	height:30px;
 	border-radius:50%;
 	background-repeat: no-repeat;
-	background-image: url(../images/product_social.png);
+	background-image: url(/images/product_social.png);
 	opacity:0.7;
 }
 .product_social li a:hover {opacity:1;}
@@ -2226,7 +2183,7 @@ footer .tweet_module .tweet_time a {color:#407d9e;}
 
 /* __________ Index Page __________ */
 	.container .jumbotron {padding-left:80px; padding-right:80px;}
-	
+	#thinking_section {padding-left:80px; padding-right:80px;}	
 	
 	.service_item i {width:90px; height:99px;}
 	.service_item a:hover i {background-position:0 -98px;}
@@ -2278,7 +2235,7 @@ footer .tweet_module .tweet_time a {color:#407d9e;}
 
 /* __________ Index Page __________ */
 	.container .jumbotron {padding-left:100px; padding-right:100px;}
-	
+	#thinking_section {padding-left:100px; padding-right:100px;}	
 	
 	.service_item i {width:90px; height:99px;}
 	.service_item a:hover i {background-position:0 -98px;}
@@ -2369,6 +2326,7 @@ footer .tweet_module .tweet_time a {color:#407d9e;}
 	
 	
 	.container .jumbotron {padding-left:10px; padding-right:10px; font-size:13px;}
+	#thinking_section {padding-left:10px; padding-right:10px; font-size:13px;}	
 	.jumbotron_text h1 {font-size:20px; line-height:22px;}
 	
 	
