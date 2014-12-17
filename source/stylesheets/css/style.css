@@ -2426,7 +2426,7 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 /* ________ //Blog _________ */
 
 	
-	footer .foot_links li {float:left !important; margin-right:20px;}
+	footer .foot_links li {margin-right:20px;}
 	
 	
 	.copyright .pull-left, .copyright .pull-right {float:none !important; text-align:center;}
