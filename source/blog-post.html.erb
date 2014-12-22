@@ -1,7 +1,7 @@
 ---
 layout: content_layout
 ---
-				
+				<% wrap_layout :layout do %>
 				
 				<!-- Blog content -->
 				<section class="our_vision">
@@ -21,9 +21,11 @@ layout: content_layout
 								</blockquote>
 								 </div>
 								</div>
-
+<%= partial "sidebar" %>
 
 								<!-- //Blog Post -->
 						
+
+<% end %>
 					
 				</section><!-- //Blog content -->
