@@ -241,12 +241,9 @@ section {padding-bottom: 70px;
 	
 }
 .logo a {
-	position:absolute;
 	z-index:10;
 	top:0;
-	left:25%;
 	width:auto;
-	display:block;
 	text-transform:uppercase;
 	font-weight:600;
 	line-height:113px;
