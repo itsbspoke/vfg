@@ -238,13 +238,13 @@ section {padding-bottom: 70px;
 .logo {
 	position:relative;
 	height:113px;
-	text-align:center;
+	
 }
 .logo a {
 	position:absolute;
 	z-index:10;
 	top:0;
-	left:49%;
+	left:25%;
 	width:auto;
 	display:block;
 	text-transform:uppercase;
@@ -261,10 +261,9 @@ section {padding-bottom: 70px;
 .fixed-menu .logo {
 	float:left;
 	height:61px;
-	position:static;
+	
 }
 .fixed-menu .logo a {
-	position:static;
 	padding-left:30px;
 	line-height:61px;
 	font-size:28px;
