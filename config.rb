@@ -47,6 +47,10 @@
 #   end
 # end
 
+activate :blog do |blog|
+  blog.layout = "content_layout"
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'

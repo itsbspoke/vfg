@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.3.6"
 
+gem "middleman-blog"
+
 gem 'rake'
 gem 'middleman-gh-pages'
 gem 'middleman-google-analytics'
