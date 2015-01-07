@@ -1,3 +1,5 @@
+# bundle exec middleman article --blog thinking-in-leadership "Energize Your Leadership in a Hybrid Way"
+
 ###
 # Compass
 ###
@@ -47,8 +49,20 @@
 #   end
 # end
 
+Time.zone = "America/New_York"
+
 activate :blog do |blog|
+  blog.name = "thinking-in-leadership"
+  blog.prefix = "thinking-in-leadership"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"  
   blog.layout = "content_layout"
+end
+
+activate :blog do |blog|
+  blog.name = "leadership-insights"
+  blog.prefix = "leadership-insights"
+  blog.permalink = "{year}/{title}.html"    
+  blog.layout = "content_layout"  
 end
 
 set :css_dir, 'stylesheets'
