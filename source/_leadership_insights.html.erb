@@ -1,38 +1,27 @@
-<section id="thinking_of_leadership_form">
-				<div class="center">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title"><%= current_page.blog_options.name.titleize %></h3>
-						</div>
-						<!-- form horizontal in bootstrap docs -->
-						<form name="newsletter_form" method="get" class="newsletter_form form">
-							<div class="panel-body">
-								<div class="row">
-									<div class="col-md-8 padbot20">
-										<div class="container">
-											<div class="row">
-											<div class="col-md-6 form-group">
-												<label for="name">Name:</label>
-												<input class="input_wt" name="name" type="text" />
-											</div>
-											<div class="col-md-6 form-group">
-												<label for="email">Email:</label>
-												<input class="input_wt" type="text" name="email"/>				
-											</div>
-										</div>
-										</div>
-									</div>
-									<div class="col-md-4 padbot20">
-										<a class="btn btn-default" href="founder.html" role="button">Subscribe</a>
-									</div>
-					
-								</div>
-				
-								Find thought-provoking quotes about leadership that can bring fresh perspectives to your work as a leader, along with related reflections and opportunities to learn more.
-							</div>
-						</form>
-					
+<section id="leadership_insights_form">
+<div class="center">
+	<div class="panel panel-default">
+		<!-- form horizontal in bootstrap docs -->
+		<form name="newsletter_form" method="get" class="newsletter_form form">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-6 form-group">
+					  <label for="name">Name:</label>
+					  <input class="input_wt" name="name" type="text" />
+					</div>
+					<div class="col-md-6 form-group">
+					  <label for="email">Email:</label>
+					  <input class="input_wt" type="text" name="email"/>				
 					</div>
 				</div>
-			</section>			
-		</div>
+				<div class="row">
+					<div class="col-md-12">
+						<a class="btn btn-default" href="founder.html" role="button">Subscribe to <%= current_page.blog_options.name.titleize %></a>
+					</div>
+				</div>
+			</div>
+		</form>
+	
+	</div>
+</div>
+</section>			
