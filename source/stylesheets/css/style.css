@@ -720,7 +720,7 @@ footer {
 footer a {color:#979797;}
 footer h2 {font-weight:700; font-size:19px; color:#f2f1e6;}
 
-.copyright {padding:20px 0 25px; color:#fff; border-top:1px solid #484848;}
+.copyright {padding:20px 0 25px; color:#fff; }
 .copyright span {color:#4d6d7e;}
 .copyright_logo, .copyright_logo:focus {color:#fff;}
 
