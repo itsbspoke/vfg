@@ -512,64 +512,26 @@ ul.mega_menu li ol li a {
 /*-----------------------------------------------------------------------------------*/
 /*	OUR PRACTICE AREAS
 /*-----------------------------------------------------------------------------------*/
-.why_us .nav-tabs {
-	margin:0 auto;
+.practice_areas_block {
+	margin:0 -30px 66px;
+	padding:70px 30px 34px;
+	background-color:#f7f7f7;
+}
+
+.practice_areas_block dt {
+	font-size: 24px;
+	font-color: black;
+	font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 20px;
 	
 }
-.why_us .nav-tabs li {
-	float:none;
-	display:inline-block;
-	vertical-align:middle;
-	margin:0;
-}
-.why_us .nav-tabs li a {
-	margin:-3px 35px;
-	padding:11px 0 9px;
-	font-weight:700;
-	font-size:15px;
-	background:none;
-	
-}
-.why_us .nav-tabs li a:hover,
-.why_us .nav-tabs li.active a,
-.why_us .nav-tabs li.active a:hover,
-.why_us .nav-tabs li.active a:focus {
-	
-	color:#4d6d7e;
-	background:none;
-}
 
-.why_us .tab-content {
-	padding:35px 0 0;
-	background:none;
-	border:0;
-}
-.why_us .tab-content #tab1 {padding-top:32px;}
-.why_us .tab-content #tab1 p {padding-right:85px;}
-
-.why_us .tab-content #tab2 {padding-top:32px;}
-.why_us .tab-content #tab2 p {padding-right:85px;}
-
-.why_us .tab-content #tab3 {padding-top:32px;}
-.why_us .tab-content #tab3 p {padding-right:85px;}
-
-.why_us .tab-content #tab4 {padding-top:32px;}
-.why_us .tab-content #tab4 p {padding-right:85px;}
-
-.why_us .tab-content .spsk li {
-	padding-left:5px;
-	padding-bottom:10px;
-	font-size:14px;
-	color:#979797;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-}
-.why_us .tab-content .spsk li:hover {color:#505050;}
-.why_us .tab-content .spsk li i {
-	display:inline-block;
-	padding-right:20px;
-	font-size:10px;
-	color:#505050;
+.practice_areas_block p {
+	font-size: 15px;
+	font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 20px;
 }
 
 
