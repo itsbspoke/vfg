@@ -488,17 +488,87 @@ ul.mega_menu li ol li a {
 }
 
 
+/*-----------------------------------------------------------------------------------*/
+/*	QUOTE
+/*-----------------------------------------------------------------------------------*/
+#thinking_section {
+	margin:0 -30px 66px;
+	padding:70px 30px 34px;
+	background-color:#f7f7f7;	
+}
 
+#thinking_section p, #thinking_section blockquote, #thinking_section cite {
+	font-size: 15px;
+	font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 20px;
+}
 
+#thinking_section .panel-heading {
+	background-color: #4d6d7e;
+}
+
+#thinking_section .panel-title {
+	font-size: 19px;
+}
+
+#thinking_section h3 {
+	color: #fff;
+}
+
+#thinking_section {
+	margin:0 -30px 66px;
+	padding:70px 30px 34px;
+	background-color:#f7f7f7;	
+}
+
+#insight_section {
+	margin:0 -30px 66px;
+	padding:70px 30px 34px;
+}
+
+#insight_section p, #insight_section blockquote, #insight_section cite {
+	font-size: 15px;
+	font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 20px;
+}
+
+#insight_section .panel-heading {
+	background-color: #4d6d7e;
+}
+
+#insight_section .panel-title {
+	font-size: 19px;
+}
+
+#insight_section h3 {
+	color: #fff;
+}
 
 
 /*-----------------------------------------------------------------------------------*/
-/*	SERVICES
+/*	FOUNDER
 /*-----------------------------------------------------------------------------------*/
 .founder_block {
 	margin:0 -30px 66px;
 	padding:70px 30px 34px;
-	background-color:#f7f7f7;
+	background-color:#f7f7f7;		
+}
+
+.founder_block .panel-heading {
+	background-color: #4d6d7e;
+}
+
+.founder_block .panel-title {
+	font-size: 19px;
+}
+
+.founder_block h3 {
+	color: #fff;
+}
+.founder_block h4 {
+	text-transform: none;
 }
 
 .founder_block p {
@@ -518,13 +588,24 @@ ul.mega_menu li ol li a {
 	background-color:#f7f7f7;
 }
 
+.practice_areas_block .panel-heading {
+	background-color: #4d6d7e;
+}
+
+.practice_areas_block .panel-title {
+	font-size: 19px;
+}
+
+.practice_areas_block h3 {
+	color: #fff;
+}
+
 .practice_areas_block dt {
-	font-size: 24px;
-	font-color: black;
+	font-size: 17px;
+	color: #4d6d7e;;
 	font-weight: 400;
   line-height: 1.4;
   margin: 0 0 20px;
-	
 }
 
 .practice_areas_block p {
@@ -758,6 +839,10 @@ footer h2 {font-weight:700; font-size:19px; color:#f2f1e6;}
 
 /* _________ //Tags _________ */
 
+/* ____ Subscription Forms _________ */
+.newsletter_form input[type="text"] {
+	width: 60%;
+}
 /* __________ Contact Form __________ */
 textarea,
 input[type="text"] {
@@ -1426,8 +1511,7 @@ footer .FlickrImages li a img {
 
 /* //Flickr */
 
-#sidebar input {width:67%;}
-#sidebar .search_form .btn {width:30%; padding:11px 12px;}
+#sidebar input[type="text"] {width:67%;}
 .popular_products li,
 .recent_posts li {margin-bottom:10px;
 }
@@ -2114,8 +2198,7 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 
 @media (max-width: 1024px) and (-webkit-min-device-pixel-ratio:0) {
 	
-	#sidebar input {width:100%;}
-	#sidebar .search_btn {width:100%;}
+  #sidebar input[type="text"] {width:100%;}
 
 }
 
@@ -2124,7 +2207,7 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 	.block_404 {min-height:300px !important;}
 	.wrapper404 {padding-top:97px !important; padding-bottom:97px !important;}
 	
-	#sidebar .search_form .btn, #sidebar input[type="text"] {width:100%;}
+	#sidebar input[type="text"] {width:100%;}
 	
 }
 
@@ -2138,16 +2221,14 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 /* __________ Index Page __________ */
 	.container .jumbotron {padding-left:80px; padding-right:80px;}
 	#thinking_section {padding-left:80px; padding-right:80px;}	
+	#insight_section {padding-left:80px; padding-right:80px;}		
+	.practice_areas_block {padding-left:80px; padding-right:80px;}
+	.founder_block {padding-left:80px; padding-right:80px;}
 	
 	.service_item i {width:90px; height:99px;}
 	.service_item a:hover i {background-position:0 -98px;}
-
-	
-	.why_us .tab-content #tab2 .tab_text {padding-top:35px;}
 	
 	.why_us .tab-content iframe{height:248px;}
-	.why_us .tab-content #tab3 .tab_text {padding-top:0;}
-	
 	
 	.projects_block .project_item .hover_img {height:195px;}
 
@@ -2190,6 +2271,10 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 /* __________ Index Page __________ */
 	.container .jumbotron {padding-left:100px; padding-right:100px;}
 	#thinking_section {padding-left:100px; padding-right:100px;}	
+	#insight_section {padding-left:100px; padding-right:100px;}
+	.practice_areas_block {padding-left:100px; padding-right:100px;}
+	.founder_block {padding-left:100px; padding-right:100px;}
+	
 	
 	.service_item i {width:90px; height:99px;}
 	.service_item a:hover i {background-position:0 -98px;}
@@ -2281,6 +2366,10 @@ footer .tweet_module .tweet_time a {color:#4d6d7e;}
 	
 	.container .jumbotron {padding-left:10px; padding-right:10px; font-size:13px;}
 	#thinking_section {padding-left:10px; padding-right:10px; font-size:13px;}	
+	#insight_section {padding-left:10px; padding-right:10px; font-size:13px;}		
+	.founder_block {padding-left:10px; padding-right:10px; font-size:13px;}	
+	.practice_areas_block {padding-left:10px; padding-right:10px; font-size:13px;}		
+	
 	.jumbotron_text h1 {font-size:20px; line-height:22px;}
 	
 	

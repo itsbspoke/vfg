@@ -14,7 +14,7 @@
 		<!-- Blog Post -->
 		<div class="col-lg-9 col-sm-9 padbot20">
 			<div class="blog_post">
-				<h2><span class="glyphicon glyphicon-picture"></span><%= current_page.data.title %></h2>
+				<h2><%= current_page.data.title %></h2>
 				<div class="post_meta">
 					Posted by <a href="javascript:void(0);">Alanson Van Fleet</a>
 					<span class="sep">|</span>
@@ -26,13 +26,32 @@
 				</div>
 		  <%= yield %>
 		</div>
+		<div class="center">
+		<div class="row margbot50">
+			<% if current_article.previous_article %>
+			<div class="col-md-6">
+				<%= link_to "Previous", 
+						current_article.previous_article, 
+						class: "btn btn-default", role: "button" %>				
+			</div>
+			<% end %>
+			<% if current_article.next_article %>
+			<div class="col-md-6">
+				<%= link_to "Next", 
+						current_article.next_article, 
+						class: "btn btn-default", role: "button" %>				
+			</div>
+			<% end %>
+		</div>
+	  </div>
 		
 		<%# leadership_insights or thinking_of_leadership %>
     <%= partial current_page.blog_options.name.underscore %>
-		<%= partial "sidebar" %>
+	</div>
+	<%= partial "sidebar" %>
 
-		<!-- //Blog Post -->
-	</div>			
+	<!-- //Blog Post -->
+</div>			
 					
 </section><!-- //Blog content -->
 <% end %>
