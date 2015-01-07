@@ -1,4 +1,4 @@
-# bundle exec middleman article --blog thinking-in-leadership "Energize Your Leadership in a Hybrid Way"
+# bundle exec middleman article --blog thinking-of-leadership --lang erb "Energize Your Leadership in a Hybrid Way"
 
 ###
 # Compass
