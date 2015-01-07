@@ -52,8 +52,8 @@
 Time.zone = "America/New_York"
 
 activate :blog do |blog|
-  blog.name = "thinking-in-leadership"
-  blog.prefix = "thinking-in-leadership"
+  blog.name = "thinking-of-leadership"
+  blog.prefix = "thinking-of-leadership"
   blog.permalink = "{year}/{month}/{day}/{title}.html"  
   blog.layout = "content_layout"
 end

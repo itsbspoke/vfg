@@ -15,7 +15,11 @@
 		<div class="col-lg-9 col-sm-9 padbot20">
 			<div class="blog_post">
 				<h2><span class="glyphicon glyphicon-picture"></span><%= current_page.data.title %></h2>
-				<div class="post_meta">Posted by <a href="javascript:void(0);">Alanson Van Fleet</a><span class="sep">|</span>Nov 12, 2014<span class="sep">|</span><a href="javascript:void(0);">3 comments</a><span class="sep">|</span>
+				<div class="post_meta">
+					Posted by <a href="javascript:void(0);">Alanson Van Fleet</a>
+					<span class="sep">|</span>
+					<%= Date.parse(current_page.data.date).strftime("%b %e %Y") %>
+					<span class="sep">|</span>
 					tags: <% current_page.data.tags.collect{ |f| %>
                     <%= f %>
                 <% }.join(", ") %>
@@ -34,20 +38,21 @@
 						<form name="newsletter_form" method="get" class="search_form form">
 							<div class="panel-body">
 								<div class="row">
-									<div class="col-lg-6 col-sm-9 padbot20">
-										<div class="row">
-											<div class="col-lg-3 col-sm-6 form-group">
+									<div class="col-md-8 padbot20">
+										<div class="container">
+											<div class="row">
+											<div class="col-md-6 form-group">
 												<label for="name">Name:</label>
 												<input class="input_wt" name="name" type="text" />
 											</div>
-											<div class="col-lg-3 col-sm-6 form-group">
+											<div class="col-md-6 form-group">
 												<label for="email">Email:</label>
 												<input class="input_wt" type="text" name="email"/>				
 											</div>
-										</div>						
-
+										</div>
+										</div>
 									</div>
-									<div class="col-lg-3 col-sm-9">
+									<div class="col-md-4 padbot20">
 										<a class="btn btn-default" href="founder.html" role="button">Subscribe</a>
 									</div>
 					
