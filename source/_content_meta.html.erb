@@ -1,0 +1,9 @@
+				<div class="post_meta">
+					Posted by <a href="javascript:void(0);">Alanson Van Fleet</a>
+					<span class="sep">|</span>
+					<%= Date.parse(current_page.data.date).strftime("%b %e %Y") %>
+					<span class="sep">|</span>
+					tags: <% current_page.data.tags.collect{ |f| %>
+                    <%= f %>
+                <% }.join(", ") %>
+				</div>

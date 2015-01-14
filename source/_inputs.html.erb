@@ -1,0 +1,27 @@
+<div class="center">
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-md-4 form-group">
+					<label for="name">First Name:</label>
+					<input type="text" value="" name="FNAME" class="required input_wt" id="mce-FNAME">
+				</div>
+				<div class="col-md-4 form-group">
+					<label for="FNAME">Last Name:</label>
+					<input type="text" value="" name="LNAME" class="required input_wt" id="mce-LNAME">
+				</div>
+				<div class="col-md-4 form-group">
+					<label for="EMAIL">Email:</label>									
+					<input type="email" value="" name="EMAIL" class="required email input_wt" id="mce-EMAIL">						
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="clear">
+						<input type="submit" value="Subscribe to <%= current_page.blog_options.name.titleize %>" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

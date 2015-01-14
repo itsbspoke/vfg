@@ -1,0 +1,18 @@
+		<div class="center">
+		<div class="row margbot50">
+			<% if current_article.previous_article %>
+			<div class="col-md-6">
+				<%= link_to "Previous", 
+						current_article.previous_article, 
+						class: "btn btn-default", role: "button" %>				
+			</div>
+			<% end %>
+			<% if current_article.next_article %>
+			<div class="col-md-6">
+				<%= link_to "Next", 
+						current_article.next_article, 
+						class: "btn btn-default", role: "button" %>				
+			</div>
+			<% end %>
+		</div>
+	</div>
