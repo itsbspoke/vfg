@@ -55,7 +55,7 @@ activate :blog do |blog|
   blog.name = "thinking-of-leadership"
   blog.prefix = "thinking-of-leadership"
   blog.permalink = "{year}/{month}/{day}/{title}.html"  
-  blog.layout = "content_layout"
+  blog.layout = "til_layout"
 end
 
 activate :blog do |blog|

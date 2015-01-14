@@ -497,6 +497,14 @@ ul.mega_menu li ol li a {
 	background-color:#f7f7f7;	
 }
 
+div.quote {
+	color:#000;
+	background:#fff url('/images/quote.png') 1.4em 1.6em no-repeat;
+	margin-left:auto; margin-right:auto;
+	padding:1.6em 1.6em 0.2em 9em;
+	border:1px solid #111;
+}
+
 #thinking_section p, #thinking_section blockquote, #thinking_section cite {
 	font-size: 15px;
 	font-weight: 400;
@@ -908,7 +916,6 @@ footer input[type="text"] {
 	color: #9a9a9a;
 	font-style:normal;
 	border-radius: 0;	
-	background: #3d3d3d;
 	border: 0;
 	box-shadow: none;	  
 }
@@ -1215,32 +1222,6 @@ blockquote {
 	padding-top:0 !important;
 	padding-left:40px !important;
 	border: 0 !important;
-}
-blockquote:before {
-	content:'"';
-	position:absolute;
-	left:0;
-	top:0;
-	line-height:70px;
-	font-size:90px;
-}
-blockquote.pull-right {
-	padding-right: 0 !important;
-	margin-left: 20px !important;
-}
-blockquote.type1:before {color:#505050;
-}
-blockquote.type2:before {color:#979797;
-}
-blockquote p {
-	margin-bottom:10px;
-	font-weight:inherit;
-	line-height: inherit;
-	font-size: inherit;
-}
-blockquote.pull-right p, blockquote.pull-right small {text-align:left !important;
-}
-blockquote .author {color:#cecece;
 }
 
 
