@@ -848,12 +848,14 @@ footer h2 {font-weight:700; font-size:19px; color:#f2f1e6;}
 /* _________ //Tags _________ */
 
 /* ____ Subscription Forms _________ */
-.newsletter_form input[type="text"] {
+.newsletter_form input[type="text"], 
+.newsletter_form input[type="email"]{
 	width: 60%;
 }
 /* __________ Contact Form __________ */
 textarea,
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
 	width:218px;
 	margin:0 1px 4px 0;
 	margin-top:0 !important;
