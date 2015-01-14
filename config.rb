@@ -89,6 +89,7 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
+set :url_root, 'http://www.vanfleetgroup.com'
 activate :search_engine_sitemap
 
 # Build-specific configuration
