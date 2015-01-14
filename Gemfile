@@ -8,6 +8,7 @@ gem "middleman-blog"
 
 gem 'rake'
 gem 'middleman-gh-pages'
+gem 'middleman-search_engine_sitemap'
 gem 'middleman-google-analytics'
 gem 'thin'
 gem 'foreman'

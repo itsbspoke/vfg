@@ -89,6 +89,8 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
+activate :search_engine_sitemap
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
