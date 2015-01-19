@@ -8,8 +8,7 @@
 		</div><!-- LOGO -->
 	</div>
 </div>
-<!-- Blog content -->
-<section class="our_vision">
+<section>
 	<div class="row">
 		<!-- Blog Post -->
 		<div class="col-lg-9 col-sm-9 padbot20">
@@ -27,13 +26,12 @@
 				</div>
 
 				<%= partial "next_and_previous" %>
-			</div>
+			</div>		<!-- //Blog Post -->
 			<%= partial current_page.blog_options.name.underscore %>
 		</div>
 		<%= partial "sidebar", locals: {til: false} %>
 
-		<!-- //Blog Post -->
 	</div>			
 					
-</section><!-- //Blog content -->
+</section>
 <% end %>
