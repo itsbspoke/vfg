@@ -1,42 +1,11 @@
 <!-- Sidebar -->
 <div id="sidebar" class="col-lg-3 col-sm-3">
-	<div class="sidepanel margbot20">
-	<script>
-	  (function() {
-	    var cx = '012304036991964792402:zo5gcgetm3s';
-	    var gcse = document.createElement('script');
-	    gcse.type = 'text/javascript';
-	    gcse.async = true;
-	    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-	        '//www.google.com/cse/cse.js?cx=' + cx;
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(gcse, s);
-	  })();
-	</script>
-	  <gcse:searchbox-only></gcse:searchbox-only>
-	</div><!-- .sidepanel -->
+  <%= partial "search_sidepanel" %>
 							
-	<div class="sidepanel widget_text">
-		<% if til %>
-			<h2>Thinking Of Leadership</h2>
-			<ul class="foot_links">
-<% blog('thinking-of-leadership').articles[0...5].each_with_index do |article, i| %>
-				<li>
-					<span class="glyphicon glyphicon-play-circle"></span>
-					<%= link_to article.title, article %>
-				</li>
-<% end %>				
-			</ul>
-			<% else %>
-			<h2>Leadership Insights</h2>
-			<ul class="foot_links">
-<% blog('leadership-insights').articles[0...5].each_with_index do |article, i| %>
-				<li>
-					<span class="glyphicon glyphicon-play-circle"></span>
-					<%= link_to article.title, article %>
-				</li>
-<% end %>				
-			</ul>				
-			<% end %>
-	</div><!-- .sidepanel -->
+	<% if til %>
+	<%= partial "til_sidepanel" %>
+	<% else %>
+	<%= partial "li_sidepanel" %>
+	<% end %>
+
 </div><!-- //Sidebar -->

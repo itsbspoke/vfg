@@ -26,7 +26,16 @@
 			</div>		<!-- //Blog Post -->
 
 		</div>
-		<%= partial "sidebar", locals: {til: false} %>
+		<!-- Sidebar -->
+		<div id="sidebar" class="col-lg-3 col-sm-3">
+			<%= partial "search_sidepanel" %>
+							
+
+			<%= partial "til_sidepanel" %>
+
+			<%= partial "li_sidepanel" %>
+
+		</div><!-- //Sidebar -->
 
 	</div>			
 					
