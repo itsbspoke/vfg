@@ -511,11 +511,11 @@ div.quote {
 	font-style: italic;
 }
 
-#thinking_section p, #thinking_section blockquote, #thinking_section cite {
+#thinking_section p {
 	font-size: 15px;
 	font-weight: 400;
   line-height: 1.4;
-  margin: 0 0 0px;
+  margin: 0 0 20px;
 }
 
 #thinking_section .panel-heading {
